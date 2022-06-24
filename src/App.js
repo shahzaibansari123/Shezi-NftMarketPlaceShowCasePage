@@ -1,14 +1,14 @@
-import {Download, Features,SectionWrapper} from './components'
+import { Download, Features, SectionWrapper } from "./components";
 
-const App=()=> {
+const App = () => {
   return (
-    <div className="text-3xl font-bold underline">
-     <h1>React Native Show Case</h1>
-     <Download />
-     <Features />
-     <SectionWrapper />
-    </div>
+    <>
+      <SectionWrapper
+        title="Your own store of Nifty NFTs. Start Selling and growing"
+        description="Buy, store, Collect NFTs, exchange and earn Crypto. Join 50+ million using Nft Marketplace Application"
+      />
+    </>
   );
-}
+};
 
 export default App;
