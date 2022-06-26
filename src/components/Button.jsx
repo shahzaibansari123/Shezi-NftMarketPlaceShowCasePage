@@ -5,7 +5,7 @@ const Button = ({ assetUrl, Link }) => {
   return (
     <div className={styles.btnBlack}
       onClick={() => window.open(Link, '_blank')}>
-      Button
+      <img src={assetUrl} alt="expo_icon" className={styles.btnIcon} />
     </div >
   )
 }
