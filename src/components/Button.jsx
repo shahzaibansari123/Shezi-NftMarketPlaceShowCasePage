@@ -1,8 +1,12 @@
 import React from 'react'
+import styles from '../styles/Global'
 
-const Button = () => {
+const Button = ({ assetUrl, Link }) => {
   return (
-    <div>Button</div>
+    <div className={styles.btnBlack}
+      onClick={() => window.open(Link, '_blank')}>
+      Button
+    </div >
   )
 }
 
