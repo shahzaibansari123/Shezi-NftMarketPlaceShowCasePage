@@ -14,8 +14,11 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner }) => {
             <Button assetUrl={assets.expo} link="deployed app" />
           )}
         </div>
+        <div className={`flex-1 ${styles.flexCenter}`}>
+      <img src={mockupImg} alt="MockUp" />
+
+        </div>
       </div>
-      {/* <img src={mockupImg} alt="MockUp" /> */}
     </div>
   )
 }
