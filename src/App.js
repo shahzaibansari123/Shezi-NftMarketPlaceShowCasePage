@@ -15,6 +15,7 @@ const App = () => {
         title="Smart user interface marketplace"
         description="Experience a Buttery UI of NFTs market place App. Smooth constant colors of a fluent UI design"
         mockupImg={assets.homeCards}
+        reverse
       />
     </>
   );
