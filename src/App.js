@@ -11,6 +11,11 @@ const App = () => {
         mockupImg={assets.homeHero}
         banner="banner"
       />
+      <SectionWrapper
+        title="Smart user interface marketplace"
+        description="Experience a Buttery UI of NFTs market place App. Smooth constant colors of a fluent UI design"
+        mockupImg={assets.homeCards}
+      />
     </>
   );
 };
