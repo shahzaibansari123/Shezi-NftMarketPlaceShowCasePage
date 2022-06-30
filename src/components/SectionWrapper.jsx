@@ -22,7 +22,7 @@ const SectionWrapper = ({
       <div
         className={`flex items-center ${reverse ? styles.boxReverseClass : styles.boxClass} w-11/12 sm:w-full minmd:w-3/4`}
       >
-        <div className={`${styles.descDiv} ${reverse ? " fadeRightMini" : " fadeLeftMini"}`}>
+        <div className={`${styles.descDiv} ${reverse ? " fadeRightMini" : " fadeLeftMini"} ${reverse ?  styles.textRight : styles.textLeft}`}>
           <h1 className={`${styles.h1Text}`}>{title}</h1>
           <p className={`${styles.descriptionText}`}>{description}</p>
           {showBtn && <Button assetUrl={assets.expo} link="deployed app" />}
