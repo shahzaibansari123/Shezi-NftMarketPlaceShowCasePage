@@ -4,8 +4,13 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div>
-      features
+    <div className={`${styles.bgPrimary} ${styles.section} banner03`}>
+      <div className={`${styles.subSection} flex-col text-center`}>
+        <div>
+          <h1>Technologies</h1>
+        </div>
+      </div>
+
     </div>
   )
 }
