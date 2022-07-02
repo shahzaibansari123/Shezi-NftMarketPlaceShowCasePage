@@ -8,7 +8,10 @@ const Features = () => {
       <div className={`${styles.subSection} flex-col text-center`}>
         <div>
           <h1 className={`${styles.h1Text} ${styles.whiteText}`}>Technologies</h1>
-          <p>NFTs Marketplace has been developed using a cross-platform technology, React Native</p>
+          <p  className={`${styles.pText} ${styles.whiteText}`}>NFTs Marketplace has been developed using a cross-platform technology, React Native</p>
+        </div>
+        <div className={`${styles.flexWrap}`}>
+          <FeatureCard />
         </div>
       </div>
 
