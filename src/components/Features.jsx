@@ -2,6 +2,11 @@ import React from 'react'
  import styles from '../styles/Global'
  import assets from '../assets'
 
+ const FeatureCard =({iconUrl, iconText})=> (
+  <div>{iconText}</div>
+
+ )
+
 const Features = () => {
   return (
     <div className={`${styles.bgPrimary} ${styles.section} banner03`}>
