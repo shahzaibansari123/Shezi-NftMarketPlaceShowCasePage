@@ -18,6 +18,17 @@ const App = () => {
         reverse
       />
       <Features />
+      <SectionWrapper
+        title="Deployment"
+        description="NFTs Market place is built using Expo which Runs natively on all user's devices. You can easily get your App into People's Hand"
+        mockupImg={assets.feature}
+      />
+      {/* <SectionWrapper
+        title="Smart user interface marketplace"
+        description="Experience a Buttery UI of NFTs market place App. Smooth constant colors of a fluent UI design"
+        mockupImg={assets.homeCards}
+        reverse
+      /> */}
     </>
   );
 };

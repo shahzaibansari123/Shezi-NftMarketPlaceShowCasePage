@@ -5,7 +5,7 @@ import assets from "../assets";
 const FeatureCard = ({ iconUrl, iconText }) => (
   <div className={styles.featureCard}>
     <img src={iconUrl} alt="icon" className={styles.featureImg} />
-    {iconText}
+    <p className={styles.featureText}>{iconText}</p>
   </div>
 );
 
