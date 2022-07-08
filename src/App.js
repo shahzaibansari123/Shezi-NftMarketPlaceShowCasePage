@@ -1,5 +1,6 @@
 import { Download, Features, SectionWrapper } from "./components";
 import assets from "./assets";
+import styles from "./styles/Global";
 
 const App = () => {
   return (
@@ -31,6 +32,12 @@ const App = () => {
         banner="banner02"
       />
       <Download />
+      <div className="px-4 py-2 justify-center bg-primary items-center flex-col text-center banner04">
+      <p className={`${styles.pText} ${styles.whiteText}`} >
+        Made by {"      "}
+        <a href="https://github.com/shahzaibansari123" style={{fontStyle: "italic" , fontWeight: "bold"}}>Shahzaib Ansari</a>
+      </p>
+      </div>
     </>
   );
 };

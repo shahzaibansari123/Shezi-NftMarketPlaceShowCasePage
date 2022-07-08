@@ -14,7 +14,9 @@ const Download = () => {
             Get the full Source code on Github
           </p>
         </div>
-        <button className={styles.btnPrimary}>Source Code</button>
+        <a href="https://github.com/shahzaibansari123/Shezi-NFTmarketplace-ReactNativeApplication">
+        <button  className={styles.btnPrimary}>Source Code</button>
+        </a>
         <div className={styles.flexCenter}>
           <img src={assets.scene} alt="png" className={styles.fullImg} />
         </div>
